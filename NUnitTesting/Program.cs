@@ -13,7 +13,8 @@ namespace NUnitTesting
              while (flag)
              {
                  Console.WriteLine("\n 1.Vending Machine."
-                                  + "\n 2.Exit");
+                                  +"\n 2.Day Of Week"
+                                  +"\n 3.Exit");
                  int option = Convert.ToInt32(Console.ReadLine());
                  switch (option)
                  {
@@ -22,6 +23,10 @@ namespace NUnitTesting
                          vendingmachine.Amount();
                          break;
                      case 2:
+                         DayOfWeek dayofweek = new DayOfWeek();
+                         dayofweek.GetData();
+                         break;
+                     case 3:
                          flag = false;
                          break;
                      default: 
