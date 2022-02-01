@@ -15,7 +15,8 @@ namespace NUnitTesting
                  Console.WriteLine("\n 1.Vending Machine."
                                   +"\n 2.Day Of Week."
                                   +"\n 3.Temperature Conversion."
-                                  +"\n 4.Exit");
+                                  +"\n 4.Monthly Payment."
+                                  +"\n 5.Exit");
                  int option = Convert.ToInt32(Console.ReadLine());
                  switch (option)
                  {
@@ -32,6 +33,10 @@ namespace NUnitTesting
                          tempconv.TemperatureConversion();
                          break;
                      case 4:
+                         MonthlyPayment monthlypay = new MonthlyPayment();
+                         monthlypay.CalculateMonthlyPayment();
+                         break;
+                     case 5:
                          flag = false;
                          break;
                      default: 
