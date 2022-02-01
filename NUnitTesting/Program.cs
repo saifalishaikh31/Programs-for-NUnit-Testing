@@ -13,8 +13,9 @@ namespace NUnitTesting
              while (flag)
              {
                  Console.WriteLine("\n 1.Vending Machine."
-                                  +"\n 2.Day Of Week"
-                                  +"\n 3.Exit");
+                                  +"\n 2.Day Of Week."
+                                  +"\n 3.Temperature Conversion."
+                                  +"\n 4.Exit");
                  int option = Convert.ToInt32(Console.ReadLine());
                  switch (option)
                  {
