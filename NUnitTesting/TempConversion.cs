@@ -7,8 +7,8 @@ namespace NUnitTesting
 {
     class TempConversion
     {
-         public void TemperatureConversion()
-            {
+        public void TemperatureConversion()
+        {
             bool flag = true;
             while (flag)
             {
@@ -36,5 +36,7 @@ namespace NUnitTesting
                         Console.WriteLine("Invalid input");
                         break;
                 }
+            }
+        }
     }
 }

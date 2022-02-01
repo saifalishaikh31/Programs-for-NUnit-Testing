@@ -28,6 +28,10 @@ namespace NUnitTesting
                          dayofweek.GetData();
                          break;
                      case 3:
+                         TempConversion tempconv = new TempConversion();
+                         tempconv.TemperatureConversion();
+                         break;
+                     case 4:
                          flag = false;
                          break;
                      default: 
