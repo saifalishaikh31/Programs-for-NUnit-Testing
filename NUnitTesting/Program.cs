@@ -16,7 +16,8 @@ namespace NUnitTesting
                                   +"\n 2.Day Of Week."
                                   +"\n 3.Temperature Conversion."
                                   +"\n 4.Monthly Payment."
-                                  +"\n 5.Exit");
+                                  +"\n 5.Square Root using Newtons Method."
+                                  +"\n 6.Exit");
                  int option = Convert.ToInt32(Console.ReadLine());
                  switch (option)
                  {
@@ -37,6 +38,10 @@ namespace NUnitTesting
                          monthlypay.CalculateMonthlyPayment();
                          break;
                      case 5:
+                         SqrtNewtonsMethod sqrt = new SqrtNewtonsMethod();
+                         sqrt.FindSqrt();
+                         break;
+                     case 6:
                          flag = false;
                          break;
                      default: 

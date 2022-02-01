@@ -47,6 +47,7 @@
     <Compile Include="MonthlyPayment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqrtNewtonsMethod.cs" />
     <Compile Include="TempConversion.cs" />
     <Compile Include="VendingMachine.cs" />
   </ItemGroup>
