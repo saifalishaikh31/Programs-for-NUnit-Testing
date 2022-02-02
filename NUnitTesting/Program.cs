@@ -17,7 +17,8 @@ namespace NUnitTesting
                                   +"\n 3.Temperature Conversion."
                                   +"\n 4.Monthly Payment."
                                   +"\n 5.Square Root using Newtons Method."
-                                  +"\n 6.Exit");
+                                  +"\n 6.Decimal To Binary."
+                                  +"\n 7.Exit");
                  int option = Convert.ToInt32(Console.ReadLine());
                  switch (option)
                  {
@@ -42,6 +43,10 @@ namespace NUnitTesting
                          sqrt.FindSqrt();
                          break;
                      case 6:
+                         DecimalToBinary decimaltobinary = new DecimalToBinary();
+                         decimaltobinary.DecToBinary();
+                         break;
+                     case 7:
                          flag = false;
                          break;
                      default: 
